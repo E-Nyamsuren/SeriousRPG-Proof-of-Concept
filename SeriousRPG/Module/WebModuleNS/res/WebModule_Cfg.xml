@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="WebModule">
+	<online-resource id="1" xmlns:xlink="www.wikipedia.com" />
+	<online-resource id="2" xmlns:xlink="www.google.com" />
+</module>

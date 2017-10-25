@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CardMatchingModule>
+	<!-- [SC] sId should be unique among ConceptSet tags -->
+	<Targets setid="1">
+		<Description>Revised Bloom's taxonomy model</Description>
+
+		<Type>exercise</Type>
+
+		<Concept cid="identify">
+			<Text>identify</Text>
+		</Concept>
+		<Concept cid="recall">
+			<Text>recall</Text>
+		</Concept>
+		<Concept cid="recognize">
+			<Text>recognize</Text>
+		</Concept>
+		<Concept cid="list">
+			<Text>list</Text>
+		</Concept>
+		<Concept cid="summarize">
+			<Text>summarize</Text>
+		</Concept>
+		<Concept cid="classify">
+			<Text>classify</Text>
+		</Concept>
+		<Concept cid="clarify">
+			<Image rid="" />
+			<Text>clarify</Text>
+		</Concept>
+		<Concept cid="predict">
+			<Text>predict</Text>
+		</Concept>
+		<Concept cid="use">
+			<Text>use</Text>
+		</Concept>
+		<Concept cid="carry out">
+			<Text>carry out</Text>
+		</Concept>
+		<Concept cid="provide">
+			<Text>provide</Text>
+		</Concept>
+		<Concept cid="respond">
+			<Text>respond</Text>
+		</Concept>
+		<Concept cid="deconstruct">
+			<Text>deconstruct</Text>
+		</Concept>
+		<Concept cid="integrate">
+			<Text>integrate</Text>
+		</Concept>
+		<Concept cid="differentiate">
+			<Text>differentiate</Text>
+		</Concept>
+		<Concept cid="select">
+			<Text>select</Text>
+		</Concept>
+		<Concept cid="reflect">
+			<Text>reflect</Text>
+		</Concept>
+		<Concept cid="judge">
+			<Text>judge</Text>
+		</Concept>
+		<Concept cid="determine">
+			<Text>determine</Text>
+		</Concept>
+		<Concept cid="check">
+			<Text>check</Text>
+		</Concept>
+		<Concept cid="create_verb">
+			<Text>create (verb)</Text>
+		</Concept>
+		<Concept cid="design">
+			<Text>design</Text>
+		</Concept>
+		<Concept cid="assemble">
+			<Text>assemble</Text>
+		</Concept>
+		<Concept cid="generate">
+			<Text>generate</Text>
+		</Concept>
+
+		<!-- [SC] the cognitive process dimension -->
+		<Concept cid="create">
+			<Text>create</Text>
+		</Concept>
+		<Concept cid="evaluate">
+			<Text>evaluate</Text>
+		</Concept>
+		<Concept cid="analyze">
+			<Text>analyze</Text>
+		</Concept>
+		<Concept cid="apply">
+			<Text>apply</Text>
+		</Concept>
+		<Concept cid="understand">
+			<Text>understand</Text>
+		</Concept>
+		<Concept cid="remember">
+			<Text>remember</Text>
+		</Concept>
+
+		<!-- [SC] the knowledge dimension -->
+		<Concept cid="metacognitive">
+			<Text>metacognitive</Text>
+		</Concept>
+		<Concept cid="procedural">
+			<Text>procedural</Text>
+		</Concept>
+		<Concept cid="conceptual">
+			<Text>conceptual</Text>
+		</Concept>
+		<Concept cid="factual">
+			<Text>factual</Text>
+		</Concept>
+
+		<!-- [SC] pairs -->
+		<Pair pid="T1-1">
+			<Concept cid="remember" />
+			<!-- <Concept cid="factual" /> -->
+			<Concept cid="list" />
+			<Instruction>[cognitive process?]+"FACTUAL"=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-2">
+			<!-- <Concept cid="remember" /> -->
+			<Concept cid="conceptual" />
+			<Concept cid="recognize" />
+			<Instruction>"REMEMBER"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-3">
+			<Concept cid="remember" />
+			<Concept cid="procedural" />
+			<!-- <Concept cid="recall" /> -->
+			<Instruction>[cognitive process?]+[knowledge?]="RECALL"</Instruction>
+		</Pair>
+		<Pair pid="T1-4">
+			<!-- <Concept cid="remember" /> -->
+			<Concept cid="metacognitive" />
+			<Concept cid="identify" />
+			<Instruction>"REMEMBER"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+
+		<Pair pid="T1-5">
+			<Concept cid="understand" />
+			<Concept cid="factual" />
+			<!-- <Concept cid="summarize" /> -->
+			<Instruction>[cognitive process?]+[knowledge?]="SUMMARIZE"</Instruction>
+		</Pair>
+		<Pair pid="T1-6">
+			<!-- <Concept cid="understand" /> -->
+			<Concept cid="conceptual" />
+			<Concept cid="classify" />
+			<Instruction>"UNDERSTAND"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-7">
+			<Concept cid="understand" />
+			<!-- <Concept cid="procedural" /> -->
+			<Concept cid="clarify" />
+			<Instruction>[cognitive process?]+"PROCEDURAL"=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-8">
+			<Concept cid="understand" />
+			<Concept cid="metacognitive" />
+			<!-- <Concept cid="predict" /> -->
+			<Instruction>[cognitive process?]+[knowledge?]="PREDICT"</Instruction>
+		</Pair>
+
+		<Pair pid="T1-9">
+			<!-- <Concept cid="apply" /> -->
+			<Concept cid="factual" />
+			<Concept cid="respond" />
+			<Instruction>"APPLY"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-10">
+			<Concept cid="apply" />
+			<!-- <Concept cid="conceptual" /> -->
+			<Concept cid="provide" />
+			<Instruction>[cognitive process?]+"CONCEPTUAL"=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-11">
+			<Concept cid="apply" />
+			<Concept cid="procedural" />
+			<!-- <Concept cid="carry out" /> -->
+			<Instruction>[cognitive process?]+[knowledge?]="CARRY OUT"</Instruction>
+		</Pair>
+		<Pair pid="T1-12">
+			<!-- <Concept cid="apply" /> -->
+			<Concept cid="metacognitive" />
+			<Concept cid="use" />
+			<Instruction>"APPLY"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+
+		<Pair pid="T1-13">
+			<!-- <Concept cid="analyze" /> -->
+			<Concept cid="factual" />
+			<Concept cid="select" />
+			<Instruction>"ANALYZE"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-14">
+			<Concept cid="analyze" />
+			<Concept cid="conceptual" />
+			<!-- <Concept cid="differentiate" /> -->
+			<Instruction>[cognitive process?]+[knowledge?]="DIFFERENTIATE"</Instruction>
+		</Pair>
+		<Pair pid="T1-15">
+			<Concept cid="analyze" />
+			<!-- <Concept cid="procedural" /> -->
+			<Concept cid="integrate" />
+			<Instruction>[cognitive process?]+"PROCEDURAL"=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-16">
+			<Concept cid="analyze" />
+			<!-- <Concept cid="metacognitive" /> -->
+			<Concept cid="deconstruct" />
+			<Instruction>[cognitive process?]+"METACOGNITIVE"=[verb?]</Instruction>
+		</Pair>
+
+		<Pair pid="T1-17">
+			<Concept cid="evaluate" />
+			<!-- <Concept cid="factual" /> -->
+			<Concept cid="check" />
+			<Instruction>[cognitive process?]+"FACTUAL"=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-18">
+			<!-- <Concept cid="evaluate" /> -->
+			<Concept cid="conceptual" />
+			<Concept cid="determine" />
+			<Instruction>"EEVALUATE"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-19">
+			<Concept cid="evaluate" />
+			<Concept cid="procedural" />
+			<!-- <Concept cid="judge" /> -->
+			<Instruction>[cognitive process?]+[knowledge?]="JUDGE"</Instruction>
+		</Pair>
+		<Pair pid="T1-20">
+			<Concept cid="evaluate" />
+			<Concept cid="metacognitive" />
+			<!-- <Concept cid="reflect" /> -->
+			<Instruction>[cognitive process?]+[knowledge?]="REFLECT"</Instruction>
+		</Pair>
+
+		<Pair pid="T1-21">
+			<Concept cid="create" />
+			<Concept cid="factual" />
+			<!-- <Concept cid="generate" /> -->
+			<Instruction>[cognitive process?]+[knowledge?]="GENERATE"</Instruction>
+		</Pair>
+		<Pair pid="T1-22">
+			<!-- <Concept cid="create" /> -->
+			<Concept cid="conceptual" />
+			<Concept cid="assemble" />
+			<Instruction>"CREATE"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-23">
+			<Concept cid="create" />
+			<!-- <Concept cid="procedural" /> -->
+			<Concept cid="design" />
+			<Instruction>[cognitive process?]+"PROCEDURAL"=[verb?]</Instruction>
+		</Pair>
+		<Pair pid="T1-24">
+			<!-- <Concept cid="create" /> -->
+			<Concept cid="metacognitive" />
+			<Concept cid="create" />
+			<Instruction>"CREATE"+[knowledge?]=[verb?]</Instruction>
+		</Pair>
+	</Targets>
+
+	<Targets setid="2">
+		<Description>Word image matching</Description>
+
+		<Type>exercise</Type>
+
+		<Concept cid="car">
+			<Text>auto</Text>
+		</Concept>
+		<Concept cid="computer">
+			<Text>computer</Text>
+		</Concept>
+		<Concept cid="milk">
+			<Text>melk</Text>
+		</Concept>
+		<Concept cid="bread">
+			<Text>brood</Text>
+		</Concept>
+		<Concept cid="chair">
+			<Text>stoel</Text>
+		</Concept>
+		<Concept cid="desk">
+			<Text>bureau</Text>
+		</Concept>
+
+		<Concept cid="car_image">
+			<Image rid="54802" />
+			<Text>auto</Text>
+		</Concept>
+		<Concept cid="computer_image">
+			<Image rid="54804" />
+			<Text>computer</Text>
+		</Concept>
+		<Concept cid="milk_image">
+			<Image rid="54806" />
+			<Text>melk</Text>
+		</Concept>
+		<Concept cid="bread_image">
+			<Image rid="54801" />
+			<Text>brood</Text>
+		</Concept>
+		<Concept cid="chair_image">
+			<Image rid="54803" />
+			<Text>stoel</Text>
+		</Concept>
+		<Concept cid="desk_image">
+			<Image rid="54805" />
+			<Text>bureau</Text>
+		</Concept>
+
+		<Pair pid="T1-1">
+			<Concept cid="car" />
+			<Concept cid="car_image" />
+			<Instruction>Match words with images.</Instruction>
+		</Pair>
+		<Pair pid="T1-2">
+			<Concept cid="computer" />
+			<Concept cid="computer_image" />
+			<Instruction>Match words with images.</Instruction>
+		</Pair>
+		<Pair pid="T1-3">
+			<Concept cid="milk" />
+			<Concept cid="milk_image" />
+			<Instruction>Match words with images.</Instruction>
+		</Pair>
+		<Pair pid="T1-4">
+			<Concept cid="bread" />
+			<Concept cid="bread_image" />
+			<Instruction>Match words with images.</Instruction>
+		</Pair>
+		<Pair pid="T1-5">
+			<Concept cid="chair" />
+			<Concept cid="chair_image" />
+			<Instruction>Match words with images.</Instruction>
+		</Pair>
+		<Pair pid="T1-6">
+			<Concept cid="desk" />
+			<Concept cid="desk_image" />
+			<Instruction>Match words with images.</Instruction>
+		</Pair>
+	</Targets>
+
+	<Targets setid="3">
+		<Description>Revised Bloom's taxonomy model experiment</Description>
+
+		<Type>experiment</Type>
+		<Shuffle>0</Shuffle>
+
+		<Concept cid="identify">
+			<Text>identify</Text>
+		</Concept>
+		<Concept cid="recall">
+			<Text>recall</Text>
+		</Concept>
+		<Concept cid="recognize">
+			<Text>recognize</Text>
+		</Concept>
+		<Concept cid="list">
+			<Text>list</Text>
+		</Concept>
+		<Concept cid="summarize">
+			<Text>summarize</Text>
+		</Concept>
+		<Concept cid="classify">
+			<Text>classify</Text>
+		</Concept>
+		<Concept cid="clarify">
+			<Image rid="" />
+			<Text>clarify</Text>
+		</Concept>
+		<Concept cid="predict">
+			<Text>predict</Text>
+		</Concept>
+		<Concept cid="use">
+			<Text>use</Text>
+		</Concept>
+		<Concept cid="carry out">
+			<Text>carry out</Text>
+		</Concept>
+		<Concept cid="provide">
+			<Text>provide</Text>
+		</Concept>
+		<Concept cid="respond">
+			<Text>respond</Text>
+		</Concept>
+		<Concept cid="deconstruct">
+			<Text>deconstruct</Text>
+		</Concept>
+		<Concept cid="integrate">
+			<Text>integrate</Text>
+		</Concept>
+		<Concept cid="differentiate">
+			<Text>differentiate</Text>
+		</Concept>
+		<Concept cid="select">
+			<Text>select</Text>
+		</Concept>
+		<Concept cid="reflect">
+			<Text>reflect</Text>
+		</Concept>
+		<Concept cid="judge">
+			<Text>judge</Text>
+		</Concept>
+		<Concept cid="determine">
+			<Text>determine</Text>
+		</Concept>
+		<Concept cid="check">
+			<Text>check</Text>
+		</Concept>
+		<Concept cid="create_verb">
+			<Text>create (verb)</Text>
+		</Concept>
+		<Concept cid="design">
+			<Text>design</Text>
+		</Concept>
+		<Concept cid="assemble">
+			<Text>assemble</Text>
+		</Concept>
+		<Concept cid="generate">
+			<Text>generate</Text>
+		</Concept>
+
+		<!-- [SC] the cognitive process dimension -->
+		<Concept cid="create">
+			<Text>create</Text>
+		</Concept>
+		<Concept cid="evaluate">
+			<Text>evaluate</Text>
+		</Concept>
+		<Concept cid="analyze">
+			<Text>analyze</Text>
+		</Concept>
+		<Concept cid="apply">
+			<Text>apply</Text>
+		</Concept>
+		<Concept cid="understand">
+			<Text>understand</Text>
+		</Concept>
+		<Concept cid="remember">
+			<Text>remember</Text>
+		</Concept>
+
+		<!-- [SC] the knowledge dimension -->
+		<Concept cid="metacognitive">
+			<Text>metacognitive</Text>
+		</Concept>
+		<Concept cid="procedural">
+			<Text>procedural</Text>
+		</Concept>
+		<Concept cid="conceptual">
+			<Text>conceptual</Text>
+		</Concept>
+		<Concept cid="factual">
+			<Text>factual</Text>
+		</Concept>
+
+		<!-- [SC] Controlled items -->
+		<!-- [SC] Items are placed left-to-right, top-to-bottom. -->
+		<!-- [SC] All cards are shuffled and assigned a random position. -->
+		<!-- [SC] Always one target pair, all other pairs are distractors. -->
+		<Item iid="1">
+			<Pair pid="T1-1" target="0">
+				<Concept cid="remember" />
+				<Concept cid="list" />
+				<!--<Instruction>[cognitive process?]+"FACTUAL"=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+[knowledge?]="RECALL"</Instruction>
+			</Pair>
+			<Pair pid="T1-2" target="0">
+				<Concept cid="conceptual" />
+				<Concept cid="recognize" />
+				<!--<Instruction>"REMEMBER"+[knowledge?]=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+[knowledge?]="RECALL"</Instruction>
+			</Pair>
+			<Pair pid="T1-3" target="1">
+				<Concept cid="remember" />
+				<Concept cid="procedural" />
+				<Instruction>[cognitive process?]+[knowledge?]="RECALL"</Instruction>
+			</Pair>
+			<Pair pid="T1-4" target="0">
+				<Concept cid="metacognitive" />
+				<Concept cid="identify" />
+				<!--<Instruction>"REMEMBER"+[knowledge?]=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+[knowledge?]="RECALL"</Instruction>
+			</Pair>
+		</Item>
+
+		<Item iid="2">
+			<Pair pid="T1-5" target="1">
+				<Concept cid="understand" />
+				<Concept cid="factual" />
+				<Instruction>[cognitive process?]+[knowledge?]="SUMMARIZE"</Instruction>
+			</Pair>
+			<Pair pid="T1-6" target="0">
+				<Concept cid="conceptual" />
+				<Concept cid="classify" />
+				<!--<Instruction>"UNDERSTAND"+[knowledge?]=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+[knowledge?]="SUMMARIZE"</Instruction>
+			</Pair>
+			<Pair pid="T1-7" target="0">
+				<Concept cid="understand" />
+				<Concept cid="clarify" />
+				<!--<Instruction>[cognitive process?]+"PROCEDURAL"=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+[knowledge?]="SUMMARIZE"</Instruction>
+			</Pair>
+			<Pair pid="T1-8" target="0">
+				<Concept cid="understand" />
+				<Concept cid="metacognitive" />
+				<!--<Instruction>[cognitive process?]+[knowledge?]="PREDICT"</Instruction>-->
+				<Instruction>[cognitive process?]+[knowledge?]="SUMMARIZE"</Instruction>
+			</Pair>
+		</Item>
+
+		<Item iid="3">
+			<Pair pid="T1-9" target="0">
+				<Concept cid="factual" />
+				<Concept cid="respond" />
+				<!--<Instruction>"APPLY"+[knowledge?]=[verb?]</Instruction>-->
+				<Instruction>"APPLY"+[knowledge?]=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-10" target="0">
+				<Concept cid="apply" />
+				<Concept cid="provide" />
+				<!--<Instruction>[cognitive process?]+"CONCEPTUAL"=[verb?]</Instruction>-->
+				<Instruction>"APPLY"+[knowledge?]=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-11" target="0">
+				<Concept cid="apply" />
+				<Concept cid="procedural" />
+				<!--<Instruction>[cognitive process?]+[knowledge?]="CARRY OUT"</Instruction>-->
+				<Instruction>"APPLY"+[knowledge?]=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-12" target="1">
+				<Concept cid="metacognitive" />
+				<Concept cid="use" />
+				<Instruction>"APPLY"+[knowledge?]=[verb?]</Instruction>
+			</Pair>
+		</Item>
+
+		<Item iid="4">
+			<Pair pid="T1-13" target="0">
+				<Concept cid="factual" />
+				<Concept cid="select" />
+				<!--<Instruction>"ANALYZE"+[knowledge?]=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+[knowledge?]="DIFFERENTIATE"</Instruction>
+			</Pair>
+			<Pair pid="T1-14" target="1">
+				<Concept cid="analyze" />
+				<Concept cid="conceptual" />
+				<Instruction>[cognitive process?]+[knowledge?]="DIFFERENTIATE"</Instruction>
+			</Pair>
+			<Pair pid="T1-15" target="0">
+				<Concept cid="analyze" />
+				<Concept cid="integrate" />
+				<!--<Instruction>[cognitive process?]+"PROCEDURAL"=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+[knowledge?]="DIFFERENTIATE"</Instruction>
+			</Pair>
+		</Item>
+
+		<Item iid="5">
+			<Pair pid="T1-16" target="1">
+				<Concept cid="analyze" />
+				<Concept cid="deconstruct" />
+				<Instruction>[cognitive process?]+"METACOGNITIVE"=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-17" target="0">
+				<Concept cid="evaluate" />
+				<Concept cid="check" />
+				<!--<Instruction>[cognitive process?]+"FACTUAL"=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+"METACOGNITIVE"=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-18" target="0">
+				<Concept cid="conceptual" />
+				<Concept cid="determine" />
+				<!--<Instruction>"EVALUATE"+[knowledge?]=[verb?]</Instruction>-->
+				<Instruction>[cognitive process?]+"METACOGNITIVE"=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-19" target="0">
+				<Concept cid="evaluate" />
+				<Concept cid="procedural" />
+				<!--<Instruction>[cognitive process?]+[knowledge?]="JUDGE"</Instruction>-->
+				<Instruction>[cognitive process?]+"METACOGNITIVE"=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-20" target="0">
+				<Concept cid="evaluate" />
+				<Concept cid="metacognitive" />
+				<!--<Instruction>[cognitive process?]+[knowledge?]="REFLECT"</Instruction>-->
+				<Instruction>[cognitive process?]+"METACOGNITIVE"=[verb?]</Instruction>
+			</Pair>
+		</Item>
+
+		<Item iid="6">
+			<Pair pid="T1-21" target="0">
+				<Concept cid="create" />
+				<Concept cid="factual" />
+				<!--<Instruction>[cognitive process?]+[knowledge?]="GENERATE"</Instruction>-->
+				<Instruction>"CREATE"+[knowledge?]=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-22" target="1">
+				<Concept cid="conceptual" />
+				<Concept cid="assemble" />
+				<Instruction>"CREATE"+[knowledge?]=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-23" target="0">
+				<Concept cid="create" />
+				<Concept cid="design" />
+				<!--<Instruction>[cognitive process?]+"PROCEDURAL"=[verb?]</Instruction>-->
+				<Instruction>"CREATE"+[knowledge?]=[verb?]</Instruction>
+			</Pair>
+			<Pair pid="T1-24" target="0">
+				<Concept cid="metacognitive" />
+				<Concept cid="create" />
+				<!--<Instruction>"CREATE"+[knowledge?]=[verb?]</Instruction>-->
+				<Instruction>"CREATE"+[knowledge?]=[verb?]</Instruction>
+			</Pair>
+		</Item>
+	</Targets>
+</CardMatchingModule>

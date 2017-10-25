@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="DialogueModule">
+	<local-resource type="data" rid="62000" description="scenario data">scenarios.xml</local-resource>	<!-- [SC] path is relative to the modules root folder /Module/[ModuleName]/res/ where the cfg.xml file resides -->
+	
+	<local-resource type="image" rid="62001" description="background image">bg.png</local-resource>
+
+	<local-resource type="image" rid="62011" description="prev_idle">prev_idle.png</local-resource>
+	<local-resource type="image" rid="62012" description="prev_over">prev_over.png</local-resource>
+
+	<local-resource type="image" rid="62021" description="next_idle">next_idle.png</local-resource>
+	<local-resource type="image" rid="62022" description="next_over">next_over.png</local-resource>
+
+	<local-resource type="image" rid="62031" description="restart_idle">restart_idle.png</local-resource>
+	<local-resource type="image" rid="62032" description="restart_over">restart_over.png</local-resource>
+
+	<local-resource type="image" rid="62041" description="close_idle">close_idle.png</local-resource>
+	<local-resource type="image" rid="62042" description="close_over">close_over.png</local-resource>
+
+</module>

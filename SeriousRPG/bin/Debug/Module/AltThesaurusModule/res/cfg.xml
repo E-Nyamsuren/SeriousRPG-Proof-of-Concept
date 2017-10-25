@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="AltThesaurusModule">
+	<local-resource type="data" rid="94001" description="scenario data">scenarios.xml</local-resource>	<!-- [SC] path is relative to the modules root folder /Module/[ModuleName]/res/ where the cfg.xml file resides -->
+	
+	<local-resource type="image" rid="95001" description="background image">bg.png</local-resource>
+
+	<local-resource type="image" rid="95111" description="enemy1_down1">enemy1_down1.png</local-resource>
+	<local-resource type="image" rid="95112" description="enemy1_down2">enemy1_down2.png</local-resource>
+	<local-resource type="image" rid="95113" description="enemy1_down3">enemy1_down3.png</local-resource>
+
+	<local-resource type="image" rid="95121" description="enemy2_down1">enemy2_down1.png</local-resource>
+	<local-resource type="image" rid="95122" description="enemy2_down2">enemy2_down2.png</local-resource>
+	<local-resource type="image" rid="95123" description="enemy2_down3">enemy2_down3.png</local-resource>
+
+	<local-resource type="image" rid="95131" description="enemy3_down1">enemy3_down1.png</local-resource>
+	<local-resource type="image" rid="95132" description="enemy3_down2">enemy3_down2.png</local-resource>
+	<local-resource type="image" rid="95133" description="enemy3_down3">enemy3_down3.png</local-resource>
+
+	<local-resource type="image" rid="95141" description="enemy4_down1">enemy4_down1.png</local-resource>
+	<local-resource type="image" rid="95142" description="enemy4_down2">enemy4_down2.png</local-resource>
+	<local-resource type="image" rid="95143" description="enemy4_down3">enemy4_down3.png</local-resource>
+
+	<local-resource type="image" rid="95151" description="enemy5_down1">enemy5_down1.png</local-resource>
+	<local-resource type="image" rid="95152" description="enemy5_down2">enemy5_down2.png</local-resource>
+	<local-resource type="image" rid="95153" description="enemy5_down3">enemy5_down3.png</local-resource>
+
+	<local-resource type="image" rid="95161" description="enemy6_down1">enemy6_down1.png</local-resource>
+	<local-resource type="image" rid="95161" description="enemy6_down2">enemy6_down2.png</local-resource>
+	<local-resource type="image" rid="95161" description="enemy6_down3">enemy6_down3.png</local-resource>
+
+	<local-resource type="image" rid="95301" description="ebullet1">ebullet1.png</local-resource>
+	<local-resource type="image" rid="95302" description="ebullet2">ebullet2.png</local-resource>
+	<local-resource type="image" rid="95303" description="ebullet3">ebullet3.png</local-resource>
+	<local-resource type="image" rid="95304" description="ebullet4">ebullet4.png</local-resource>
+	<!-- Min/Max of 4 sprites. Do not add more sprites -->
+
+	<local-resource type="image" rid="95311" description="pbullet1">pbullet1.png</local-resource>
+	<local-resource type="image" rid="95312" description="pbullet2">pbullet2.png</local-resource>
+	<local-resource type="image" rid="95313" description="pbullet3">pbullet3.png</local-resource>
+	<local-resource type="image" rid="95314" description="pbullet4">pbullet4.png</local-resource>
+	<!-- Min/Max of 4 sprites. Do not add more sprites -->
+
+	<local-resource type="image" rid="95211" description="wrong1">mainTree1-1.png</local-resource>
+	<local-resource type="image" rid="95212" description="wrong2">mainTree1-2.png</local-resource>
+	<local-resource type="image" rid="95213" description="wrong3">mainTree1-3.png</local-resource>
+	<local-resource type="image" rid="95214" description="wrong4">mainTree1-4.png</local-resource>
+
+	<local-resource type="image" rid="95221" description="wrong1">mainTree2-1.png</local-resource>
+	<local-resource type="image" rid="95222" description="wrong2">mainTree2-2.png</local-resource>
+	<local-resource type="image" rid="95223" description="wrong3">mainTree2-3.png</local-resource>
+	<local-resource type="image" rid="95224" description="wrong4">mainTree2-4.png</local-resource>
+
+	<local-resource type="image" rid="95231" description="wrong1">mainTree3-1.png</local-resource>
+	<local-resource type="image" rid="95232" description="wrong2">mainTree3-2.png</local-resource>
+	<local-resource type="image" rid="95233" description="wrong3">mainTree3-3.png</local-resource>
+	<local-resource type="image" rid="95234" description="wrong4">mainTree3-4.png</local-resource>
+	
+</module>

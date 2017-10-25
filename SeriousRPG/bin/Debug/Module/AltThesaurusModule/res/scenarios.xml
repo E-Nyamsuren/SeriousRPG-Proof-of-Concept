@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AltChoiceModule>
+	<!-- [SC] sId should be unique among ConceptSet tags -->
+	<Thesaurus tid="1">
+		<Description>Revised Bloom's taxonomy model</Description>
+
+		<Type>exercise</Type>
+
+		<!-- [SC] verbs -->
+		<Concept cid="identify">
+			<Text>identify</Text>
+		</Concept>
+		<Concept cid="recall">
+			<Text>recall</Text>
+		</Concept>
+		<Concept cid="recognize">
+			<Text>recognize</Text>
+		</Concept>
+		<Concept cid="list">
+			<Text>list</Text>
+		</Concept>
+		<Concept cid="summarize">
+			<Text>summarize</Text>
+		</Concept>
+		<Concept cid="classify">
+			<Text>classify</Text>
+		</Concept>
+		<Concept cid="clarify">
+			<Text>clarify</Text>
+		</Concept>
+		<Concept cid="predict">
+			<Text>predict</Text>
+		</Concept>
+		<Concept cid="use">
+			<Text>use</Text>
+		</Concept>
+		<Concept cid="carry out">
+			<Text>carry out</Text>
+		</Concept>
+		<Concept cid="provide">
+			<Text>provide</Text>
+		</Concept>
+		<Concept cid="respond">
+			<Text>respond</Text>
+		</Concept>
+		<Concept cid="deconstruct">
+			<Text>deconstruct</Text>
+		</Concept>
+		<Concept cid="integrate">
+			<Text>integrate</Text>
+		</Concept>
+		<Concept cid="differentiate">
+			<Text>differentiate</Text>
+		</Concept>
+		<Concept cid="select">
+			<Text>select</Text>
+		</Concept>
+		<Concept cid="reflect">
+			<Text>reflect</Text>
+		</Concept>
+		<Concept cid="judge">
+			<Text>judge</Text>
+		</Concept>
+		<Concept cid="determine">
+			<Text>determine</Text>
+		</Concept>
+		<Concept cid="check">
+			<Text>check</Text>
+		</Concept>
+		<Concept cid="create-verb">
+			<Text>create</Text>
+		</Concept>
+		<Concept cid="design">
+			<Text>design</Text>
+		</Concept>
+		<Concept cid="assemble">
+			<Text>assemble</Text>
+		</Concept>
+		<Concept cid="generate">
+			<Text>generate</Text>
+		</Concept>
+
+		<!-- [SC] the cognitive process dimension -->
+		<Concept cid="create">
+			<Text>create</Text>
+		</Concept>
+		<Concept cid="evaluate">
+			<Text>evaluate</Text>
+		</Concept>
+		<Concept cid="analyze">
+			<Text>analyze</Text>
+		</Concept>
+		<Concept cid="apply">
+			<Text>apply</Text>
+		</Concept>
+		<Concept cid="understand">
+			<Text>understand</Text>
+		</Concept>
+		<Concept cid="remember">
+			<Text>remember</Text>
+		</Concept>
+
+		<!-- [SC] the knowledge dimension -->
+		<Concept cid="metacognitive">
+			<Text>metacognitive</Text>
+		</Concept>
+		<Concept cid="procedural">
+			<Text>procedural</Text>
+		</Concept>
+		<Concept cid="conceptual">
+			<Text>conceptual</Text>
+		</Concept>
+		<Concept cid="factual">
+			<Text>factual</Text>
+		</Concept>
+
+		<!--  Distractors -->
+		<Distractor cid="account">account</Distractor>
+		<Distractor cid="action">action</Distractor>
+		<Distractor cid="activity">activity</Distractor>
+		<Distractor cid="add">add</Distractor>
+		<Distractor cid="affect">affect</Distractor>
+		<Distractor cid="agree">agree</Distractor>
+		<Distractor cid="allow">allow</Distractor>
+		<Distractor cid="analysis">analysis</Distractor>
+		<Distractor cid="appear">appear</Distractor>
+		<Distractor cid="attention">attention</Distractor>
+		<Distractor cid="avoid">avoid</Distractor>
+		<Distractor cid="behavior">behavior</Distractor>
+		<Distractor cid="believe">believe</Distractor>
+		<Distractor cid="build">build</Distractor>
+		<Distractor cid="bring">bring</Distractor>
+		<Distractor cid="carry">carry</Distractor>
+		<Distractor cid="catch">catch</Distractor>
+		<Distractor cid="challenge">challenge</Distractor>
+		<Distractor cid="change">change</Distractor>
+		<Distractor cid="character">character</Distractor>
+		<Distractor cid="choose">choose</Distractor>
+		<Distractor cid="claim">claim</Distractor>
+		<Distractor cid="class">class</Distractor>
+		<Distractor cid="clear">clear</Distractor>
+		<Distractor cid="coach">coach</Distractor>
+		<Distractor cid="concern">concern</Distractor>
+		<Distractor cid="consider">consider</Distractor>
+		<Distractor cid="contain">contain</Distractor>
+		<Distractor cid="control">control</Distractor>
+		<Distractor cid="debate">debate</Distractor>
+		<Distractor cid="decide">decide</Distractor>
+		<Distractor cid="decision">decision</Distractor>
+		<Distractor cid="describe">describe</Distractor>
+		<Distractor cid="describe">describe</Distractor>
+		<Distractor cid="develop">develop</Distractor>
+		<Distractor cid="discover">discover</Distractor>
+		<Distractor cid="discuss">discuss</Distractor>
+		<Distractor cid="draw">draw</Distractor>
+		<Distractor cid="dream">dream</Distractor>
+		<Distractor cid="education">education</Distractor>
+		<Distractor cid="effort">effort</Distractor>
+		<Distractor cid="enter">enter</Distractor>
+		<Distractor cid="establish">establish</Distractor>
+		<Distractor cid="explain">explain</Distractor>
+		<Distractor cid="feel">feel</Distractor>
+		<Distractor cid="figure">figure</Distractor>
+		<Distractor cid="find">find</Distractor>
+		<Distractor cid="focus">focus</Distractor>
+		<Distractor cid="follow">follow</Distractor>
+		<Distractor cid="goal">goal</Distractor>
+		<Distractor cid="group">group</Distractor>
+		<Distractor cid="guess">guess</Distractor>
+		<Distractor cid="happen">happen</Distractor>
+		<Distractor cid="have">have</Distractor>
+		<Distractor cid="hear">hear</Distractor>
+		<Distractor cid="help">help</Distractor>
+		<Distractor cid="hold">hold</Distractor>
+		<Distractor cid="idea">idea</Distractor>
+		<Distractor cid="image">image</Distractor>
+		<Distractor cid="improve">improve</Distractor>
+		<Distractor cid="include">include</Distractor>
+		<Distractor cid="increase">increase</Distractor>
+		<Distractor cid="information">information</Distractor>
+		<Distractor cid="involve">involve</Distractor>
+		<Distractor cid="item">item</Distractor>
+		<Distractor cid="know">know</Distractor>
+		<Distractor cid="knowledge">knowledge</Distractor>
+		<Distractor cid="language">language</Distractor>
+		<Distractor cid="lay">lay</Distractor>
+		<Distractor cid="lead">lead</Distractor>
+		<Distractor cid="learn">learn</Distractor>
+		<Distractor cid="leave">leave</Distractor>
+		<Distractor cid="lie">lie</Distractor>
+		<Distractor cid="listen">listen</Distractor>
+		<Distractor cid="live">live</Distractor>
+		<Distractor cid="maintain">maintain</Distractor>
+		<Distractor cid="make">make</Distractor>
+		<Distractor cid="manage">manage</Distractor>
+		<Distractor cid="management">management</Distractor>
+		<Distractor cid="measure">measure</Distractor>
+		<Distractor cid="meet">meet</Distractor>
+		<Distractor cid="mention">mention</Distractor>
+		<Distractor cid="message">message</Distractor>
+		<Distractor cid="method">method</Distractor>
+		<Distractor cid="miss">miss</Distractor>
+		<Distractor cid="move">move</Distractor>
+		<Distractor cid="need">need</Distractor>
+		<Distractor cid="note">note</Distractor>
+		<Distractor cid="notice">notice</Distractor>
+		<Distractor cid="occur">occur</Distractor>
+		<Distractor cid="offer">offer</Distractor>
+		<Distractor cid="open">open</Distractor>
+		<Distractor cid="order">order</Distractor>
+		<Distractor cid="pass">pass</Distractor>
+		<Distractor cid="perform">perform</Distractor>
+		<Distractor cid="place">place</Distractor>
+		<Distractor cid="plan">plan</Distractor>
+		<Distractor cid="plant">plant</Distractor>
+		<Distractor cid="play">play</Distractor>
+		<Distractor cid="point">point</Distractor>
+		<Distractor cid="positive">positive</Distractor>
+		<Distractor cid="practice">practice</Distractor>
+		<Distractor cid="prevent">prevent</Distractor>
+		<Distractor cid="problem">problem</Distractor>
+		<Distractor cid="process">process</Distractor>
+		<Distractor cid="produce">produce</Distractor>
+		<Distractor cid="professional">professional</Distractor>
+		<Distractor cid="program">program</Distractor>
+		<Distractor cid="prove">prove</Distractor>
+		<Distractor cid="purpose">purpose</Distractor>
+		<Distractor cid="push">push</Distractor>
+		<Distractor cid="put">put</Distractor>
+		<Distractor cid="raise">raise</Distractor>
+		<Distractor cid="rate">rate</Distractor>
+		<Distractor cid="reach">reach</Distractor>
+		<Distractor cid="read">read</Distractor>
+		<Distractor cid="realize">realize</Distractor>
+		<Distractor cid="reason">reason</Distractor>
+		<Distractor cid="receive">receive</Distractor>
+		<Distractor cid="record">record</Distractor>
+		<Distractor cid="reduce">reduce</Distractor>
+		<Distractor cid="relate">relate</Distractor>
+		<Distractor cid="remove">remove</Distractor>
+		<Distractor cid="report">report</Distractor>
+		<Distractor cid="represent">represent</Distractor>
+		<Distractor cid="require">require</Distractor>
+		<Distractor cid="research">research</Distractor>
+		<Distractor cid="response">response</Distractor>
+		<Distractor cid="return">return</Distractor>
+		<Distractor cid="reveal">reveal</Distractor>
+		<Distractor cid="rule">rule</Distractor>
+		<Distractor cid="save">save</Distractor>
+		<Distractor cid="say">say</Distractor>
+		<Distractor cid="see">see</Distractor>
+		<Distractor cid="seek">seek</Distractor>
+		<Distractor cid="send">send</Distractor>
+		<Distractor cid="sense">sense</Distractor>
+		<Distractor cid="serve">serve</Distractor>
+		<Distractor cid="set">set</Distractor>
+		<Distractor cid="share">share</Distractor>
+		<Distractor cid="show">show</Distractor>
+		<Distractor cid="skill">skill</Distractor>
+		<Distractor cid="sort">sort</Distractor>
+		<Distractor cid="speak">speak</Distractor>
+		<Distractor cid="spend">spend</Distractor>
+		<Distractor cid="stage">stage</Distractor>
+		<Distractor cid="subject">subject</Distractor>
+		<Distractor cid="suggest">suggest</Distractor>
+		<Distractor cid="support">support</Distractor>
+		<Distractor cid="take">take</Distractor>
+		<Distractor cid="talk">talk</Distractor>
+		<Distractor cid="teach">teach</Distractor>
+		<Distractor cid="tell">tell</Distractor>
+		<Distractor cid="tend">tend</Distractor>
+		<Distractor cid="term">term</Distractor>
+		<Distractor cid="theory">theory</Distractor>
+		<Distractor cid="think">think</Distractor>
+		<Distractor cid="thought">thought</Distractor>
+		<Distractor cid="training">training</Distractor>
+		<Distractor cid="type">type</Distractor>
+		<Distractor cid="view">view</Distractor>
+		<Distractor cid="want">want</Distractor>
+		<Distractor cid="wish">wish</Distractor>
+		<Distractor cid="worry">worry</Distractor>
+		<Distractor cid="write">write</Distractor>
+	</Thesaurus>
+
+	<Thesaurus tid="2">
+		<Description>Revised Bloom's taxonomy model</Description>
+
+		<Type>experiment</Type>
+		<Shuffle>0</Shuffle>
+
+		<!-- [SC] verbs -->
+		<Concept cid="identify">
+			<Text>identify</Text>
+		</Concept>
+		<Concept cid="recall">
+			<Text>recall</Text>
+		</Concept>
+		<Concept cid="recognize">
+			<Text>recognize</Text>
+		</Concept>
+		<Concept cid="list">
+			<Text>list</Text>
+		</Concept>
+		<Concept cid="summarize">
+			<Text>summarize</Text>
+		</Concept>
+		<Concept cid="classify">
+			<Text>classify</Text>
+		</Concept>
+		<Concept cid="clarify">
+			<Text>clarify</Text>
+		</Concept>
+		<Concept cid="predict">
+			<Text>predict</Text>
+		</Concept>
+		<Concept cid="use">
+			<Text>use</Text>
+		</Concept>
+		<Concept cid="carry out">
+			<Text>carry out</Text>
+		</Concept>
+		<Concept cid="provide">
+			<Text>provide</Text>
+		</Concept>
+		<Concept cid="respond">
+			<Text>respond</Text>
+		</Concept>
+		<Concept cid="deconstruct">
+			<Text>deconstruct</Text>
+		</Concept>
+		<Concept cid="integrate">
+			<Text>integrate</Text>
+		</Concept>
+		<Concept cid="differentiate">
+			<Text>differentiate</Text>
+		</Concept>
+		<Concept cid="select">
+			<Text>select</Text>
+		</Concept>
+		<Concept cid="reflect">
+			<Text>reflect</Text>
+		</Concept>
+		<Concept cid="judge">
+			<Text>judge</Text>
+		</Concept>
+		<Concept cid="determine">
+			<Text>determine</Text>
+		</Concept>
+		<Concept cid="check">
+			<Text>check</Text>
+		</Concept>
+		<Concept cid="create">
+			<Text>create</Text>
+		</Concept>
+		<Concept cid="design">
+			<Text>design</Text>
+		</Concept>
+		<Concept cid="assemble">
+			<Text>assemble</Text>
+		</Concept>
+		<Concept cid="generate">
+			<Text>generate</Text>
+		</Concept>
+
+		<!-- [SC] the cognitive process dimension -->
+		<Concept cid="create">
+			<Text>create</Text>
+		</Concept>
+		<Concept cid="evaluate">
+			<Text>evaluate</Text>
+		</Concept>
+		<Concept cid="analyze">
+			<Text>analyze</Text>
+		</Concept>
+		<Concept cid="apply">
+			<Text>apply</Text>
+		</Concept>
+		<Concept cid="understand">
+			<Text>understand</Text>
+		</Concept>
+		<Concept cid="remember">
+			<Text>remember</Text>
+		</Concept>
+
+		<!-- [SC] the knowledge dimension -->
+		<Concept cid="metacognitive">
+			<Text>metacognitive</Text>
+		</Concept>
+		<Concept cid="procedural">
+			<Text>procedural</Text>
+		</Concept>
+		<Concept cid="conceptual">
+			<Text>conceptual</Text>
+		</Concept>
+		<Concept cid="factual">
+			<Text>factual</Text>
+		</Concept>
+
+		<!--  Distractors -->
+		<Concept cid="response">
+			<Text>response</Text>
+		</Concept>
+		<Concept cid="return">
+			<Text>return</Text>
+		</Concept>
+		<Concept cid="reveal">
+			<Text>reveal</Text>
+		</Concept>
+		<Concept cid="rule">
+			<Text>rule</Text>
+		</Concept>
+		<Concept cid="tell">
+			<Text>tell</Text>
+		</Concept>
+		<Concept cid="tend">
+			<Text>tend</Text>
+		</Concept>
+		<Concept cid="term">
+			<Text>term</Text>
+		</Concept>
+		<Concept cid="theory">
+			<Text>theory</Text>
+		</Concept>
+		<Concept cid="suggest">
+			<Text>suggest</Text>
+		</Concept>
+		<Concept cid="support">
+			<Text>support</Text>
+		</Concept>
+		<Concept cid="take">
+			<Text>take</Text>
+		</Concept>
+		<Concept cid="talk">
+			<Text>talk</Text>
+		</Concept>
+		<Concept cid="management">
+			<Text>management</Text>
+		</Concept>
+		<Concept cid="measure">
+			<Text>measure</Text>
+		</Concept>
+		<Concept cid="meet">
+			<Text>meet</Text>
+		</Concept>
+		<Concept cid="mention">
+			<Text>mention</Text>
+		</Concept>
+		<Concept cid="information">
+			<Text>information</Text>
+		</Concept>
+		<Concept cid="involve">
+			<Text>involve</Text>
+		</Concept>
+		<Concept cid="item">
+			<Text>item</Text>
+		</Concept>
+		<Concept cid="know">
+			<Text>know</Text>
+		</Concept>
+		
+
+		<Item iid="1">
+			<Shuffle>0</Shuffle>
+			<Concept target="1" cid="create" />
+			<Concept target="0" cid="response" />
+			<Concept target="0" cid="return" />
+			<Concept target="0" cid="reveal" />
+			<Concept target="0" cid="rule" />
+		</Item>
+
+		<Item iid="2">
+			<Shuffle>0</Shuffle>
+			<Concept target="1" cid="evaluate" />
+			<Concept target="0" cid="tell" />
+			<Concept target="0" cid="tend" />
+			<Concept target="0" cid="term" />
+			<Concept target="0" cid="theory" />
+		</Item>
+
+		<Item iid="3">
+			<Shuffle>0</Shuffle>
+			<Concept target="1" cid="analyze" />
+			<Concept target="0" cid="suggest" />
+			<Concept target="0" cid="support" />
+			<Concept target="0" cid="take" />
+			<Concept target="0" cid="talk" />
+		</Item>
+
+		<Item iid="4">
+			<Shuffle>0</Shuffle>
+			<Concept target="1" cid="apply" />
+			<Concept target="0" cid="management" />
+			<Concept target="0" cid="measure" />
+			<Concept target="0" cid="meet" />
+			<Concept target="0" cid="mention" />
+		</Item>
+
+		<Item iid="5">
+			<Shuffle>0</Shuffle>
+			<Concept target="1" cid="understand" />
+			<Concept target="0" cid="information" />
+			<Concept target="0" cid="involve" />
+			<Concept target="0" cid="item" />
+			<Concept target="0" cid="know" />
+		</Item>
+	</Thesaurus>
+
+</AltChoiceModule>

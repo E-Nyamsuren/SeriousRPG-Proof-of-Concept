@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DialogueModule>
+	<Dialogue did="1">
+		<Para pos="1" aindex="2">
+			<!--..........................................................-->
+			Hello, Player. Your today's quest is to learn and memorize the
+			Revised Bloom's taxonomy.
+		</Para>
+		<Para pos="2" aindex="2">
+			<!--..........................................................-->
+			You can find the description of the revised taxonomy at 
+			https://goo.gl/6KZYos.
+		</Para>
+	</Dialogue>
+
+
+	<Dialogue did="2">
+		<Para pos="1" aindex="2">
+			<!--..........................................................-->
+			Hello, Player. Your today's quest to learn and memorize the
+			Bloom's taxonomy.
+		</Para>
+		<Para pos="2" aindex="2">
+			<!--..........................................................-->
+			Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 =
+			Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 =
+			Para 2 Para 2 Para 2 Para 2 Para 2 Para 2
+		</Para>
+		<Para pos="3" aindex="1">
+			<!--..........................................................-->
+			Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 =
+			Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3
+			Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 =
+		</Para>
+		<Para pos="4" aindex="1">
+			<!--..........................................................-->
+			Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 =
+			Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 =
+		</Para>
+		<Para pos="5" aindex="2">
+			<!--..........................................................-->
+			Para 5 Para 5 Para 5 Para 5
+			Para 5 Para 5 Para 5 Para 5 Para 5 Para 5 Para 5 Para 5 Para 5 =
+			Para 5 Para 5 Para 5 Para 5 Para 5 Para 5
+		</Para>
+	</Dialogue>
+
+	<Dialogue did="3">
+		<Para pos="1" aindex="1">
+			Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1
+			Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1 Para 1
+			Para 1 Para 1 Para 1 Para 1 Para 1
+		</Para>
+		<Para pos="2" aindex="1">
+			Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 
+			Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2 Para 2
+			Para 2 Para 2 Para 2 Para 2 Para 2 Para 2
+		</Para>
+		<Para pos="3" aindex="2">
+			Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3
+			Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3
+			Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3 Para 3
+		</Para>
+		<Para pos="4" aindex="2">
+			Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4
+			Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4 Para 4
+		</Para>
+		<Para pos="5" aindex="1">
+			Para 5 Para 5 Para 5 Para 5
+			Para 5 Para 5 Para 5 Para 5 Para 5 Para 5 Para 5 Para 5 Para 5 Para 5
+			Para 5 Para 5 Para 5 Para 5 Para 5 Para 5
+		</Para>
+	</Dialogue>
+</DialogueModule>

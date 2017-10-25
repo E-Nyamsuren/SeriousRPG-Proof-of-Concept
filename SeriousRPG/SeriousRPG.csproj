@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EECFE84A-C6A4-4C39-ACCB-1AE180BA14D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SeriousRPG</RootNamespace>
+    <AssemblyName>SeriousRPG</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Net">
+      <HintPath>..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlIO\Keys.cs" />
+    <Compile Include="ControlIO\IClickable.cs" />
+    <Compile Include="ControlIO\Mouse.cs" />
+    <Compile Include="Editor\ActionNS\ActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\ActionNS\ActionForm.Designer.cs">
+      <DependentUpon>ActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\ActionNS\AddActionInvokeModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\ActionNS\AddActionInvokeModule.Designer.cs">
+      <DependentUpon>AddActionInvokeModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\ActionNS\ModuleTypeInfo.cs" />
+    <Compile Include="Editor\AddMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AddMapForm.Designer.cs">
+      <DependentUpon>AddMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\AnimationNS\SpriteSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimationNS\SpriteSelectionForm.Designer.cs">
+      <DependentUpon>SpriteSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\AnimationNS\StubAnimationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimationNS\StubAnimationForm.Designer.cs">
+      <DependentUpon>StubAnimationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\AnimationNS\TestAnimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimationNS\TestAnimeForm.Designer.cs">
+      <DependentUpon>TestAnimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\AddCharacterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\AddCharacterForm.Designer.cs">
+      <DependentUpon>AddCharacterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\CharacterWizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\CharacterWizardForm.Designer.cs">
+      <DependentUpon>CharacterWizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\PortraitSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\PortraitSelectionForm.Designer.cs">
+      <DependentUpon>PortraitSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\SelectAnimationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\SelectAnimationForm.Designer.cs">
+      <DependentUpon>SelectAnimationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\SpriteSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\SpriteSelectionForm.Designer.cs">
+      <DependentUpon>SpriteSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\StubStateSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\CharacterNS\StubStateSelectionForm.Designer.cs">
+      <DependentUpon>StubStateSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\ConditionNS\AddRegionTriggerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\ConditionNS\AddRegionTriggerForm.Designer.cs">
+      <DependentUpon>AddRegionTriggerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\ConditionNS\ConditionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\ConditionNS\ConditionForm.Designer.cs">
+      <DependentUpon>ConditionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\RuleNS\AddRuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\RuleNS\AddRuleForm.Designer.cs">
+      <DependentUpon>AddRuleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\RuleNS\QuickTriggerRuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\RuleNS\QuickTriggerRuleForm.Designer.cs">
+      <DependentUpon>QuickTriggerRuleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\RuleNS\RuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\RuleNS\RuleForm.Designer.cs">
+      <DependentUpon>RuleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileIO\IStorage.cs" />
+    <Compile Include="FileIO\Storage.cs" />
+    <Compile Include="Model\ActorNS\ActorPreset.cs" />
+    <Compile Include="Model\ActorNS\IActor.cs" />
+    <Compile Include="Model\ActorNS\IDynamicActor.cs" />
+    <Compile Include="Model\ActorNS\IPlayer.cs" />
+    <Compile Include="Model\DrawingNS\ICanvas.cs" />
+    <Compile Include="Model\DrawingNS\IGenericImage.cs" />
+    <Compile Include="Model\EventNS\CollisionEvent.cs" />
+    <Compile Include="Model\EventNS\EventRegistry.cs" />
+    <Compile Include="Model\EventNS\IEvent.cs" />
+    <Compile Include="Model\EventNS\SREvent.cs" />
+    <Compile Include="Model\MapNS\IRenderableObject.cs" />
+    <Compile Include="Model\RuleNS\ActionNS\Action.cs" />
+    <Compile Include="Model\RuleNS\ActionNS\ActionInvokeModule.cs" />
+    <Compile Include="Model\RuleNS\ActionNS\ActionRemoveEvent.cs" />
+    <Compile Include="Model\RuleNS\ConditionNS\Condition.cs" />
+    <Compile Include="Model\RuleNS\ConditionNS\EventExists.cs" />
+    <Compile Include="Model\RuleNS\Rule.cs" />
+    <Compile Include="Model\RuleNS\ActionNS\IAction.cs" />
+    <Compile Include="Model\RuleNS\ConditionNS\ICondition.cs" />
+    <Compile Include="Model\RuleNS\IRule.cs" />
+    <Compile Include="Model\RuleNS\ConditionNS\RegionTrigger.cs" />
+    <Compile Include="Model\GameNS\IGame.cs" />
+    <Compile Include="Model\GameNS\IRunableGame.cs" />
+    <Compile Include="Model\GameNS\RunableGame.ControlIO.cs" />
+    <Compile Include="Model\GameNS\RunableGame.cs" />
+    <Compile Include="HubNS\Hub.cs" />
+    <Compile Include="Model\IdNamePair.cs" />
+    <Compile Include="Editor\EditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\EditorForm.Designer.cs">
+      <DependentUpon>EditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HubNS\IHub.cs" />
+    <Compile Include="Model\ImageObjectNS\AbstractImageObject.cs" />
+    <Compile Include="Model\ActorNS\Actor.cs" />
+    <Compile Include="Model\ActorNS\DynamicActor.cs" />
+    <Compile Include="Model\ActorNS\Player.cs" />
+    <Compile Include="Model\AnimationNS\Animation.cs" />
+    <Compile Include="Model\AnimationNS\StubAnimation.cs" />
+    <Compile Include="Model\GameNS\Game.cs" />
+    <Compile Include="Model\ImageObjectNS\ImageObject.cs" />
+    <Compile Include="Model\MapNS\Background.cs" />
+    <Compile Include="Model\Cfg.cs" />
+    <Compile Include="Model\DrawingNS\GenericImage.cs" />
+    <Compile Include="Model\MapNS\BackgroundOverlay.cs" />
+    <Compile Include="Model\MapNS\Foreground.cs" />
+    <Compile Include="Model\MapNS\ForegroundOverlay.cs" />
+    <Compile Include="Model\MapNS\GenericLayer.cs" />
+    <Compile Include="Model\MapNS\ICollidableObject.cs" />
+    <Compile Include="Model\MapNS\LogicLayer.cs" />
+    <Compile Include="Misc\AuxiliaryMethods.cs" />
+    <Compile Include="Model\ModuleNS\IUiComponentModule.cs" />
+    <Compile Include="Module\AltThesaurusModuleNS\AltThesaurusModule.cs" />
+    <Compile Include="Module\AltThesaurusModuleNS\CustomEnemy.cs" />
+    <Compile Include="Module\AltThesaurusModuleNS\DataStructures.cs" />
+    <Compile Include="Module\AltThesaurusModuleNS\EnemyBullet.cs" />
+    <Compile Include="Module\AltThesaurusModuleNS\ExperimentData.cs" />
+    <Compile Include="Module\AltThesaurusModuleNS\PlayerBullet.cs" />
+    <Compile Include="Module\CardMatchingModuleNS\Card.cs" />
+    <Compile Include="Module\CardMatchingModuleNS\CardMatchingModule.cs" />
+    <Compile Include="Module\CardMatchingModuleNS\Cell.cs" />
+    <Compile Include="Module\CardMatchingModuleNS\Concept.cs" />
+    <Compile Include="Module\CardMatchingModuleNS\ExperimentData.cs" />
+    <Compile Include="Module\CardMatchingModuleNS\Item.cs" />
+    <Compile Include="Module\CardMatchingModuleNS\Pair.cs" />
+    <Compile Include="Module\DialogueModuleNS\Dialogue.cs" />
+    <Compile Include="Module\DialogueModuleNS\DialogueModule.cs" />
+    <Compile Include="Module\VideoModuleNS\GraphicsDeviceService.cs" />
+    <Compile Include="Model\ModuleNS\IModule.cs" />
+    <Compile Include="Module\VideoModuleNS\VideoModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\WebModuleNS\WebModule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Model\StateNS\StubState.cs" />
+    <Compile Include="Model\StateNS\State.cs" />
+    <Compile Include="Model\MapNS\Map.cs" />
+    <Compile Include="Model\MapNS\RouteMap.cs" />
+    <Compile Include="Model\ImageObjectNS\Tile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Editor\ActionNS\ActionForm.resx">
+      <DependentUpon>ActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\ActionNS\AddActionInvokeModule.resx">
+      <DependentUpon>AddActionInvokeModule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AddMapForm.resx">
+      <DependentUpon>AddMapForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimationNS\SpriteSelectionForm.resx">
+      <DependentUpon>SpriteSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimationNS\StubAnimationForm.resx">
+      <DependentUpon>StubAnimationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimationNS\TestAnimeForm.resx">
+      <DependentUpon>TestAnimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\CharacterNS\AddCharacterForm.resx">
+      <DependentUpon>AddCharacterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\CharacterNS\CharacterWizardForm.resx">
+      <DependentUpon>CharacterWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\CharacterNS\PortraitSelectionForm.resx">
+      <DependentUpon>PortraitSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\CharacterNS\SelectAnimationForm.resx">
+      <DependentUpon>SelectAnimationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\CharacterNS\SpriteSelectionForm.resx">
+      <DependentUpon>SpriteSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\CharacterNS\StubStateSelectionForm.resx">
+      <DependentUpon>StubStateSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\ConditionNS\AddRegionTriggerForm.resx">
+      <DependentUpon>AddRegionTriggerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\ConditionNS\ConditionForm.resx">
+      <DependentUpon>ConditionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\EditorForm.resx">
+      <DependentUpon>EditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\RuleNS\AddRuleForm.resx">
+      <DependentUpon>AddRuleForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\RuleNS\QuickTriggerRuleForm.resx">
+      <DependentUpon>QuickTriggerRuleForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\RuleNS\RuleForm.resx">
+      <DependentUpon>RuleForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Module\WebModuleNS\res\WebModule_Cfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Editor\ActorNS\" />
+    <Folder Include="Editor\StateNS\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

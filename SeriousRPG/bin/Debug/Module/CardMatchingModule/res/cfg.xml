@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="AltThesaurusModule">
+	<local-resource type="data" rid="53001" description="scenario data">scenarios.xml</local-resource>	<!-- [SC] path is relative to the modules root folder /Module/[ModuleName]/res/ where the cfg.xml file resides -->
+	
+	<local-resource type="image" rid="54001" description="background image">bg.png</local-resource>
+
+	<local-resource type="image" rid="54011" description="card background 1">cardBg1.png</local-resource>
+	<local-resource type="image" rid="54012" description="card background 2">cardBg2.png</local-resource>
+	<local-resource type="image" rid="54013" description="card background 3">cardBg3.png</local-resource>
+	<local-resource type="image" rid="54014" description="card background 4">cardBg4.png</local-resource>
+	<local-resource type="image" rid="54015" description="card background 5">cardBg5.png</local-resource>
+	<local-resource type="image" rid="54016" description="card background 6">cardBg6.png</local-resource>
+	<local-resource type="image" rid="54017" description="card background 7">cardBg7.png</local-resource>
+
+	<local-resource type="image" rid="54111" description="background image">cardBg1Highlighted.png</local-resource>
+
+	<local-resource type="image" rid="54201" description="enemy1">enemy1.png</local-resource>
+	<local-resource type="image" rid="54202" description="enemy2">enemy2.png</local-resource>
+	<local-resource type="image" rid="54203" description="enemy3">enemy3.png</local-resource>
+
+	<local-resource type="image" rid="54301" description="prev">prev.png</local-resource>
+
+	<local-resource type="image" rid="54311" description="next">next.png</local-resource>
+
+	<local-resource type="image" rid="54401" description="fire1-1">fire1-1.png</local-resource>
+	<local-resource type="image" rid="54402" description="fire1-2">fire1-2.png</local-resource>
+
+	<local-resource type="image" rid="54411" description="fire2-1">fire2-1.png</local-resource>
+	<local-resource type="image" rid="54412" description="fire2-2">fire2-2.png</local-resource>
+	<local-resource type="image" rid="54413" description="fire2-3">fire2-3.png</local-resource>
+	<local-resource type="image" rid="54414" description="fire2-4">fire2-4.png</local-resource>
+	<local-resource type="image" rid="54415" description="fire2-5">fire2-5.png</local-resource>
+	<local-resource type="image" rid="54416" description="fire2-6">fire2-6.png</local-resource>
+
+	<local-resource type="image" rid="54801" description="bread">bread.png</local-resource>
+	<local-resource type="image" rid="54802" description="car">car.png</local-resource>
+	<local-resource type="image" rid="54803" description="chair">chair.png</local-resource>
+	<local-resource type="image" rid="54804" description="computer">computer.png</local-resource>
+	<local-resource type="image" rid="54805" description="desk">desk.png</local-resource>
+	<local-resource type="image" rid="54806" description="milk">milk.png</local-resource>
+</module>
